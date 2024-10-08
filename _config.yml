@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Chunfeng Du"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "ChunfengDu.png"
   name             : "Chunfeng Du"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "No Pain, No Gain"
   location         : "Xiamen Fujian"
   employer         : "Xiamen University"
   uri              : # URL
