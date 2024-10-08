@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 # Biography
 Chunfeng Du is a Ph.D. student in the Department of Computer Science at School of Informatics, Xiamen University (advisor: Prof. Suzhen Wu and Prof. Bo mao). His research interests include computer architecture, storage systems and hardware-software co-design, with current research focuing on the main memory,
 
