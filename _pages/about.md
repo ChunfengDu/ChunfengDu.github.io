@@ -12,7 +12,7 @@ Chunfeng Du is a Ph.D. student in the Department of Computer Science at School o
 
 His research results have been published in top international conferences and journals such as ***HPCA, IEEE TC, ACM TOS, IPDPS, MSST***. He served as Artifact Evaluation Committee (AEC) for CCF Class A conferences **SOSP'2021** and **FAST'2024**, and was invited to participate in the 4th Xia Peisu Young Scholars Forum organized by the Institute of Computing, Chinese Academy of Sciences.
 
-Chunfeng Du has received both his B.S. and B.E. from Zhengzhou University of Light Industry. He will reviced his Ph.D. from Xiamen University (2024.12).
+Chunfeng Du has received both his B.S. and B.E. from Zhengzhou University of Light Industry. He will revice his Ph.D. from Xiamen University (2024.12).
 
 You can find my CV here:[Chunfeng Du's Curriculum Vitae](../assets/ChunfengDu_CV.pdf).
 
