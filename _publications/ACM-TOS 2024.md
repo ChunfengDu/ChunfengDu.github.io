@@ -1,12 +1,12 @@
 ---
-title: "[ACM TOS 2024] FSDedup: Feature-Aware and Selective Deduplication for Improving Performance of Encrypted Non-Volatile Main Memory (CCF-A)"
+title: "[CCF-A] FSDedup: Feature-Aware and Selective Deduplication for Improving Performance of Encrypted Non-Volatile Main Memory"
 collection: publications
 category: Journal
 permalink: /publication/ACM-TOS 2024
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 excerpt: ' '
 date: 2024-08-06
-venue: 'Journal 1'
+venue: 'ACM TOS 2024'
 # slidesurl: 'https://github.com/ChunfengDu'
 paperurl: 'http://academicpages.github.io/files/FSDedup(TOS2024).pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
