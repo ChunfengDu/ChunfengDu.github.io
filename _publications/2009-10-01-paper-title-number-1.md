@@ -1,5 +1,5 @@
 ---
-title: "FSDedup: Feature-Aware and Selective Deduplication for Improving Performance of Encrypted Non-Volatile Main Memory"
+title: "[ACM TOS] FSDedup: Feature-Aware and Selective Deduplication for Improving Performance of Encrypted Non-Volatile Main Memory (CCF-A)"
 collection: publications
 category: Journal
 permalink: /publication/2009-10-01-paper-title-number-1
