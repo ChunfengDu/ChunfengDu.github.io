@@ -47,17 +47,33 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        {% if page.category == 'Conference' and page.paperurl and page.slidesurl %}
+          <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.category == 'Conference' and page.paperurl %}
+          <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
+        {% elsif page.category == 'Conference' and page.slidesurl %}
+          <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p>
+        {% elsif page.paperurl %}
+          <p style="font-size: smaller">
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
+
+        {% if post.category == 'Journal' and post.paperurl %}
+          <p><a href="{{ post.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
+        {% endif %}
+        
+        <!-- {% if page.citation and page.paperurl and page.slidesurl %}
+          <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.citation and page.paperurl %}
+          <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
+        {% elsif page.citation and page.slidesurl %}
+          <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p>
+        {% elsif page.citation %}
+          <p style="font-size: smaller">
+        {% elsif page.slidesurl %}
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% endif %} -->
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
