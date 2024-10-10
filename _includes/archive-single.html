@@ -52,22 +52,6 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    <!-- {%if post.category == 'conferences' and post.paperurl and post.slidesurl %}
-    <p><a href="{{ post.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a> | <a href="{{ post.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p>
-    {% elsif post.category == 'conferences' and post.paperurl %}
-    <p><a href="{{ post.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
-    {% elsif post.category == 'conferences' and post.slidesurl %}
-    <p><a href="{{ post.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p>
-    {% elsif post.category == 'conferences' %}
-    {% endif %}
-
-    {% if post.category == 'journal' and post.paperurl %}
-    <p><a href="{{ post.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
-    {% elsif post.paperurl %}
-    <p><a href="{{ post.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-    <p><a href="{{ post.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p>
-    {% endif %} -->
 
     {% if post.citation and post.paperurl and post.slidesurl %}
       <p><a href="{{ post.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a> | <a href="{{ post.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p>
