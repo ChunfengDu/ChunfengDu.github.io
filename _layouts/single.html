@@ -47,11 +47,11 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.category == 'Conference' and page.paperurl and page.slidesurl %}
+        {% if page.category == 'conferences' and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.category == 'Conference' and page.paperurl %}
+        {% elsif page.category == 'conferences' and page.paperurl %}
           <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
-        {% elsif page.category == 'Conference' and page.slidesurl %}
+        {% elsif page.category == 'conferences' and page.slidesurl %}
           <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p>
         {% elsif page.paperurl %}
           <p style="font-size: smaller">
@@ -59,10 +59,10 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
 
-        {% if post.category == 'Journal' and post.paperurl %}
+        {% if post.category == 'journal' and post.paperurl %}
           <p><a href="{{ post.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a></p>
         {% endif %}
-        
+
         <!-- {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller" style="color: rgb(255, 0, 0);"><a href="{{ page.paperurl }}" style="color: rgb(255, 0, 0);">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl %}
