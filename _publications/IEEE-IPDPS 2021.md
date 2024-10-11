@@ -7,7 +7,7 @@ excerpt: ' '
 date: 2021-06-28
 venue: 'IEEE IPDPS'
 # slidesurl: 'https://github.com/ChunfengDu'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'http://academicpages.github.io/files/CAGC(IPDPS2021).pdf'
 citation: 'Suzhen Wu, Chunfeng Du, Haijun Li, Hong Jiang, Zhirong Shen, and Bo Mao. CAGC: A Content-aware Garbage Collection Scheme for Ultra-Low Latency Flash-based SSDs. In Proceedings of 35th IEEE International Parallel & Distributed Processing Symposium (IPDPS’21), Virtual Conference, May 17-21, 2021.'
 ---
 

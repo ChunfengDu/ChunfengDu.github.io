@@ -7,7 +7,7 @@ excerpt: ' '
 date: 2023-03-24
 venue: 'IEEE HPCA'
 # slidesurl: 'https://github.com/ChunfengDu'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'http://academicpages.github.io/files/ESD(HPCA2024).pdf'
 citation: 'Chunfeng Du, Suzhen Wu, Jiapeng Wu, Bo Mao, and Shengzhe Wang. ESD: An ECC-assisted and Selective Deduplication for Non-Volatile Main Memory. In Proceedings of the 29th IEEE International Symposium on High-Performance Computer Architecture (HPCA’23), Montreal, QC, Canada, February 25–March 01, 2023.'
 ---
 
