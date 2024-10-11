@@ -12,7 +12,22 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="page__inner-wrap">
+  <header>
+    <h1 class="page__title" itemprop="headline">Publications</h1>
+  </header>
+  <section class="page__content" itemprop="text">
+     <h2 id="-selected-publications-more">📋 Selected Publications [<a href="https://github.com/ChunfengDu">More]</a></h2>
+     
+  </section>
+</div>
+
+
+
+
+<!-- 原有内容显示 -->
+<!-- <div class="{{ include.type | default: "list" }}__item"> -->
+  
   <!-- <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -65,8 +80,9 @@
       <p>Download <a href="{{ post.slidesurl }}" style="color: rgb(255, 0, 0);">Download Slides</a></p></p>
     {% endif %}
   </article> -->
-</div>
+<!-- </div> -->
 
+<!-- 原版显示内容 -->
     <!-- {% if post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.paperurl %}
