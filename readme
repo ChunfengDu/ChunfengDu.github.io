@@ -1,0 +1,5 @@
+1、比较重要的几个文件：
+    _config.yml                 重要的一些配置文件
+    _pages/about.md             首页采用markdown语言编写的一些内容
+    _pages/Resume.html          个人重写了Resume中显示的一些静态网页内容
+    _comments/navigation.yml    首页显示的链接
