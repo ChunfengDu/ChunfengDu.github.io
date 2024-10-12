@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-# Biography
+# About Me
 Chunfeng Du is a Ph.D. student in the Department of Computer Science at School of Informatics, Xiamen University (advisor: Prof. Suzhen Wu and Prof. Bo mao). His research interests include computer architecture, storage systems and hardware-software co-design, with current research focuing on the main memory.
 
 His research results have been published in top international conferences and journals such as ***HPCA, IEEE TC, ACM TOS, IPDPS, MSST***. He served as Artifact Evaluation Committee (AEC) for CCF Class A conferences **SOSP'2021** and **FAST'2024**, and was invited to participate in the 4th Xia Peisu Young Scholars Forum organized by the Institute of Computing, Chinese Academy of Sciences.
@@ -20,7 +20,7 @@ You can find my CV here:[Chunfeng Du's Curriculum Vitae](../assets/ChunfengDu_CV
 [Email](mailto:dcf_wy@163.com)/[Github](https://github.com/ChunfengDu)/[WeChat](../images/wechat.jpg)
 
 
-Professional Services
+<!-- Professional Services
 ==========
 
 Student Research Committee, Poster Committee, Artifact Evaluation Committee, SOSP'2021
@@ -37,6 +37,6 @@ The 4th Peisu Xia Young Scholars Forum, Beijing China, Dec. 20 - Dec. 21, 2023
 
 The 29th ieee international symposium on high-performance computer architecture, Montreal, QC, Canada, Feb. 25 - Mar. 01, 2023
 
-The 23rd chinaSys workshop, Nanjing China, Dec. 17 - Dec. 18, 2022
+The 23rd chinaSys workshop, Nanjing China, Dec. 17 - Dec. 18, 2022 -->
 
 
