@@ -15,7 +15,7 @@ His research results have been published in top international conferences and jo
 
 Chunfeng Du has received both his B.S. and B.E. from Zhengzhou University of Light Industry. He will receive his Ph.D. from Xiamen University (2024.12).
 
-<span style="color:red;">Now, I am looking for a job.</span>
+<span style="color:red;">**Now, I am looking for a job.**</span>
 
 <!-- You can find my CV here:[Chunfeng Du's Curriculum Vitae](../assets/ChunfengDu_CV.pdf). -->
 
